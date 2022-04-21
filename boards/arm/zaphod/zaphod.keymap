@@ -55,7 +55,7 @@
         nav_layer {
             label = "Nav";
             bindings = <
-                &trans	   &kp HOME   &kp UP      &END            &trans       &trans           &trans         &trans       &trans       &bt BT_CLR
+                &trans	   &kp HOME   &kp UP      &kp END         &trans       &trans           &trans         &trans       &trans       &bt BT_CLR
                 &trans     &kp LEFT   &kp DOWN    &kp RIGHT       &trans       &trans           &kp PG_DN      &kp PG_UP    &trans       &trans
                 &trans     &trans     &trans      &trans          &trans       &bt BT_SEL 0     &bt BT_SEL 1   &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4
                                                   &trans          &trans       &trans           &trans
