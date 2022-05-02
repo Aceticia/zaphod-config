@@ -18,6 +18,18 @@
 
 / {
 
+    combos {
+        compatible = "zmk,combos";
+
+        qw_esc {
+	    timeout-ms = <50>;
+            key-positions = <0 1>;
+            bindings = <&kp ESC>;
+        };
+
+
+    };
+
     behaviors {
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
